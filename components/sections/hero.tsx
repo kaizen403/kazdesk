@@ -274,13 +274,21 @@ export function Hero() {
             Get Started
           </m.a>
           <m.a
-            href="mailto:rishivhavle21@gmail.com"
+            href="#"
+            onClick={(e) => {
+              e.preventDefault();
+              if ((window as any).Calendly) {
+                (window as any).Calendly.initPopupWidget({
+                  url: "https://calendly.com/rishivhavle21/30min",
+                });
+              }
+            }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             transition={{ type: "spring", stiffness: 300 }}
             className="px-6 py-3 rounded-full border border-teal-400 text-teal-400 font-semibold shadow-lg bg-transparent"
           >
-            Contact Us
+            Book Demo
           </m.a>
         </m.div>
       </div>

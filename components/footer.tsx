@@ -199,7 +199,7 @@ export function Footer() {
             <div className="flex flex-wrap gap-6">
               <div className="flex items-center text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 mr-2" />
-                <span>rishivhavle21@gmail.com</span>
+                <span>vrishi@kazdesk.in</span>
               </div>
               <div className="flex items-center text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4 mr-2" />

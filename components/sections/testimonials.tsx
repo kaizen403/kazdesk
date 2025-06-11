@@ -24,7 +24,7 @@ type TestimonialType = {
 const testimonials: TestimonialType[] = [
   {
     quote:
-      "VoxAI transformed our outreach strategy. We achieved a 42% increase in successful customer interactions with the same team size. The AI's natural conversation flow is remarkable.",
+      "Kazdesk transformed our outreach strategy. We achieved a 42% increase in successful customer interactions with the same team size. The AI's natural conversation flow is remarkable.",
     author: "Sarah Johnson",
     role: "Head of Marketing",
     company: "TechGrowth Solutions",
@@ -42,7 +42,7 @@ const testimonials: TestimonialType[] = [
   },
   {
     quote:
-      "As a startup, we couldn't afford a large sales team. VoxAI allowed us to scale our outreach efforts and connect with 5x more potential customers. The ROI has been incredible.",
+      "As a startup, we couldn't afford a large sales team. Kazdesk allowed us to scale our outreach efforts and connect with 5x more potential customers. The ROI has been incredible.",
     author: "Jessica Williams",
     role: "CEO",
     company: "Bloom Finance",
@@ -51,7 +51,7 @@ const testimonials: TestimonialType[] = [
   },
   {
     quote:
-      "Our product launch campaign needed a wide reach in a short time. VoxAI handled thousands of personalized calls that would have been impossible with our team alone. Truly game-changing.",
+      "Our product launch campaign needed a wide reach in a short time. Kazdesk handled thousands of personalized calls that would have been impossible with our team alone. Truly game-changing.",
     author: "David Martinez",
     role: "Product Manager",
     company: "HealthTech Innovations",
@@ -60,7 +60,7 @@ const testimonials: TestimonialType[] = [
   },
   {
     quote:
-      "The quality of conversations with VoxAI is remarkable. Our customers often don't realize they're speaking with an AI until we tell them. It's revolutionized how we handle support and outreach.",
+      "The quality of conversations with Kazdesk is remarkable. Our customers often don't realize they're speaking with an AI until we tell them. It's revolutionized how we handle support and outreach.",
     author: "Amelia Thompson",
     role: "Customer Success Lead",
     company: "CloudServe Solutions",
@@ -69,12 +69,6 @@ const testimonials: TestimonialType[] = [
   },
 ];
 
-const trustedCompanies = [
-  "Globex Inc.",
-  "InnovaTech",
-  "BlueWave",
-  "Nexus Systems",
-];
 
 export function Testimonials() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -157,23 +151,6 @@ export function Testimonials() {
           </Carousel>
         </div>
 
-        <div className="mt-20">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold">
-              Trusted by innovative companies
-            </h3>
-          </div>
-          <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16">
-            {trustedCompanies.map((company) => (
-              <div
-                key={company}
-                className="h-12 w-32 bg-white/5 rounded-md flex items-center justify-center"
-              >
-                <span className="text-sm text-white/80">{company}</span>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
 
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-indigo-900/20 rounded-full blur-3xl opacity-20"></div>

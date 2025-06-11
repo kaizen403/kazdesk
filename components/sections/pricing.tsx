@@ -8,7 +8,7 @@ import { Check } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export function Pricing() {
-  const [annual, setAnnual] = useState(true);
+  const [annual, setAnnual] = useState(false);
 
   // Pricing values
   const startupMonthly = 149;
@@ -183,7 +183,7 @@ export function Pricing() {
                   </li>
                 </ul>
 
-                <a href="mailto:rishivhavle21@gmail.com">
+                <a href="mailto:vrishi@kazdesk.in">
                   <Button className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 shadow-glow-purple">
                     Contact Sales
                   </Button>
@@ -242,7 +242,7 @@ export function Pricing() {
                   </li>
                 </ul>
 
-                <a href="mailto:rishivhavle21@gmail.com">
+                <a href="mailto:vrishi@kazdesk.in">
                   <Button
                     variant="outline"
                     className="w-full border-primary/20 hover:bg-primary/10"

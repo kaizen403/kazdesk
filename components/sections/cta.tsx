@@ -47,7 +47,7 @@ export function Cta() {
                   >
                     Book a Demo <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
-                  <a href="mailto:rishivhavle21@gmail.com">
+                  <a href="mailto:vrishi@kazdesk.in">
                     <Button
                       size="lg"
                       variant="outline"
@@ -68,7 +68,7 @@ export function Cta() {
               >
                 <h3 className="text-xl font-bold mb-6">Request Information</h3>
                 <form
-                  action="mailto:rishivhavle21@gmail.com"
+                  action="mailto:vrishi@kazdesk.in"
                   method="POST"
                   encType="text/plain"
                   className="space-y-4"
