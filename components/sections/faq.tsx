@@ -100,7 +100,7 @@ export function Faq() {
             </p>
             <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary/10 border border-primary/20">
               <span className="text-sm font-medium">
-                Contact us at support@voxai.com
+                Contact us at support@kazdesk.in
               </span>
             </div>
           </div>
